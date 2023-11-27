@@ -32,7 +32,7 @@ Este programa de gestión de cursos y estudiantes permite al usuario realizar di
 - **Packages:**
     - `modelo`: Contiene las clases relacionadas con el modelo de datos (Curso, Estudiante, GestorDatos).
     - `dato`: Contiene la clase GestorDatos encargada de la persistencia de datos.
-    - `main`: Contiene la función principal y el menú interactivo.
+    - `vista`: Contiene el menú principal de la aplicación.
 
 ---
 
@@ -85,7 +85,8 @@ Este programa de gestión de cursos y estudiantes permite al usuario realizar di
 
 ### Métodos:
 
-- `GestorDatos(nombreArchivo)`: Constructor
+- `GestorDatos(nombreArchivo) (Constructor)`
+- `leerArchivoCurso(nombreArchivo): void`
 - `cargarDatos(): void`
 - `almacenarDatos(): void`
 
